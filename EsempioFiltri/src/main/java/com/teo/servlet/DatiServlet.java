@@ -17,7 +17,7 @@ public class DatiServlet extends HttpServlet {
 		
 		response.setContentType("text/html");  			
 		PrintWriter out = response.getWriter();		
-		
+		//commento
 		String nome = (String) request.getAttribute("nome");
 		String cognome = (String) request.getAttribute("cognome");
 		
